@@ -14,6 +14,7 @@
 		2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */; };
 		2FC1C52A20FD2D9800EBAB74 /* Find_FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C52920FD2D9800EBAB74 /* Find_FriendsTests.swift */; };
 		2FC1C53520FD2D9800EBAB74 /* Find_FriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */; };
+		B86F53F620FD5AC600FD8C59 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = B86F53F520FD5AC600FD8C59 /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2FC1C53020FD2D9800EBAB74 /* Find-FriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-FriendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_FriendsUITests.swift; sourceTree = "<group>"; };
 		2FC1C53620FD2D9800EBAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86F53F520FD5AC600FD8C59 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */,
 				2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */,
 				2FC1C52020FD2D9800EBAB74 /* Info.plist */,
+				B86F53F520FD5AC600FD8C59 /* GoogleService-Info (1).plist */,
 			);
 			path = "Find-Friends";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */,
 				2FC1C51C20FD2D9800EBAB74 /* Assets.xcassets in Resources */,
 				2FC1C51A20FD2D9600EBAB74 /* Main.storyboard in Resources */,
+				B86F53F620FD5AC600FD8C59 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
