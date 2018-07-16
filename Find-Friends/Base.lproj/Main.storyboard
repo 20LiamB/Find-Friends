@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="abY-Ye-Dgh" customClass="MapViewController">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="abY-Ye-Dgh" customClass="MapViewController">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="abY-Ye-Dgh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="12n-ax-ER3"/>
+                            <constraint firstItem="abY-Ye-Dgh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HWp-H8-te1"/>
+                            <constraint firstItem="abY-Ye-Dgh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cv1-aB-xMV"/>
+                            <constraint firstItem="abY-Ye-Dgh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="h6M-0p-FmB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
                             <outlet property="MapView" destination="abY-Ye-Dgh" id="Aia-25-cWo"/>
