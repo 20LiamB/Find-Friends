@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F69291520FD32C4005D5942 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69291420FD32C4005D5942 /* LoginViewController.swift */; };
 		2F69291720FD3699005D5942 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69291620FD3699005D5942 /* MapViewController.swift */; };
 		2FC1C51520FD2D9600EBAB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */; };
 		2FC1C51720FD2D9600EBAB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C51620FD2D9600EBAB74 /* ViewController.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F69291420FD32C4005D5942 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2F69291620FD3699005D5942 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2FC1C51120FD2D9600EBAB74 /* Find-Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find-Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			children = (
 				2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */,
 				2FC1C51620FD2D9600EBAB74 /* ViewController.swift */,
-				2F69291420FD32C4005D5942 /* LoginViewController.swift */,
 				2F69291620FD3699005D5942 /* MapViewController.swift */,
 				2FC1C51820FD2D9600EBAB74 /* Main.storyboard */,
 				2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */,
@@ -262,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F69291520FD32C4005D5942 /* LoginViewController.swift in Sources */,
 				2FC1C51720FD2D9600EBAB74 /* ViewController.swift in Sources */,
 				2FC1C51520FD2D9600EBAB74 /* AppDelegate.swift in Sources */,
 				2F69291720FD3699005D5942 /* MapViewController.swift in Sources */,
