@@ -36,7 +36,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate{
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         let userLocation = locations.last
-        let viewRegion = MKCoordinateRegionMakeWithDistance((userLocation?.coordinate)!, 600, 600)
+        
+        let viewRegion = MKCoordinateRegionMakeWithDistance((coorLocation?.coordinate)!, 600, 600)
         self.map.setRegion(viewRegion, animated: true)
     }
 }
