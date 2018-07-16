@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 import MapKit
 
-
 class MapViewController: UIViewController, CLLocationManagerDelegate{
     
     
@@ -33,6 +32,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate{
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocationManager]){
+        
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         let userLocation = locations.last

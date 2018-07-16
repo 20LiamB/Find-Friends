@@ -83,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F34129E20FD47D000577631 /* SwiftFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */,
+				2FC1C51620FD2D9600EBAB74 /* ViewController.swift */,
+				2F69291620FD3699005D5942 /* MapViewController.swift */,
+			);
+			path = SwiftFiles;
+			sourceTree = "<group>";
+		};
 		2FC1C50820FD2D9600EBAB74 = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +118,7 @@
 		2FC1C51320FD2D9600EBAB74 /* Find-Friends */ = {
 			isa = PBXGroup;
 			children = (
-				2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */,
-				2FC1C51620FD2D9600EBAB74 /* ViewController.swift */,
-				2F69291620FD3699005D5942 /* MapViewController.swift */,
+				2F34129E20FD47D000577631 /* SwiftFiles */,
 				2FC1C51820FD2D9600EBAB74 /* Main.storyboard */,
 				2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */,
 				2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */,
