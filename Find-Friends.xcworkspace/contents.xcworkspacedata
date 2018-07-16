@@ -5,6 +5,22 @@
       location = "group:Find-Friends.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Find-FriendsUITests">
+   </FileRef>
+   <Group
+      location = "group:Find-FriendsTests"
+      name = "Find-FriendsTests">
+      <FileRef
+         location = "group:Find-FriendsTests/Find_FriendsTests.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Find-FriendsTests/Info.plist">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Find-Friends">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
