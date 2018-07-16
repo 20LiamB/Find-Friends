@@ -11,4 +11,5 @@ import Foundation
 
 class MapViewController{
     
+    @IBOutlet weak var MapView: MapViewController!
 }

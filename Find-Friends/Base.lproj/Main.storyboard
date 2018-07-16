@@ -25,7 +25,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outlet property="MapView" destination="abY-Ye-Dgh" id="Aia-25-cWo"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="UIVIew" destination="8bC-Xf-vdC" id="VEK-v3-UmV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
