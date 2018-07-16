@@ -15,11 +15,8 @@
 		2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */; };
 		2FC1C52A20FD2D9800EBAB74 /* Find_FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C52920FD2D9800EBAB74 /* Find_FriendsTests.swift */; };
 		2FC1C53520FD2D9800EBAB74 /* Find_FriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */; };
-<<<<<<< HEAD
 		B86F53F620FD5AC600FD8C59 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = B86F53F520FD5AC600FD8C59 /* GoogleService-Info (1).plist */; };
-=======
 		B51718C5BD6B3FD0DE761EAE /* Pods_Find_Friends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB34028CE5A0FA5F7DDEB906 /* Pods_Find_Friends.framework */; };
->>>>>>> e5220316a646d4293941f771bff8777315533ef4
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,15 +51,12 @@
 		2FC1C53020FD2D9800EBAB74 /* Find-FriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-FriendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_FriendsUITests.swift; sourceTree = "<group>"; };
 		2FC1C53620FD2D9800EBAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		B86F53F520FD5AC600FD8C59 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../GoogleService-Info (1).plist"; sourceTree = "<group>"; };
-=======
 		6BB6F1B41B886409A6016EDE /* Pods_Find_FriendsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_FriendsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A0B545968F97BA9974462F /* Pods-Find-Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find-Friends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find-Friends/Pods-Find-Friends.debug.xcconfig"; sourceTree = "<group>"; };
 		DFC7B7AD2B98ABB3CA24AA99 /* Pods-Find-Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find-Friends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find-Friends/Pods-Find-Friends.release.xcconfig"; sourceTree = "<group>"; };
 		FA42BED796EE565F985B74D2 /* Pods_Find_FriendsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_FriendsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB34028CE5A0FA5F7DDEB906 /* Pods_Find_Friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Friends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> e5220316a646d4293941f771bff8777315533ef4
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
