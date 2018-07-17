@@ -4,9 +4,19 @@
 target 'Find-Friends' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+<<<<<<< HEAD
 
   # Pods for Find-Friends
 	pod 'Firebase/Core'
 
 
 end
+=======
+  Pod 'PubNub', '3.7.2'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'FirebaseUI/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+end
+>>>>>>> Liam
