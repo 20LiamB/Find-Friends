@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		2FDE47A920FD64E500B8CD6B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE47A820FD64E500B8CD6B /* MapViewController.swift */; };
 		8B4D559D93C683F2F74CFF58 /* Pods_Find_Friends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C58374696DB3A9430460DB1 /* Pods_Find_Friends.framework */; };
 		D1249E6C20FD61A20000396B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1249E6B20FD61A20000396B /* AppDelegate.swift */; };
@@ -16,9 +17,22 @@
 		D1249E7620FD61A40000396B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1249E7520FD61A40000396B /* Assets.xcassets */; };
 		D1249E7920FD61A40000396B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1249E7720FD61A40000396B /* LaunchScreen.storyboard */; };
 		D1249E8320FD63DC0000396B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1249E8220FD63DC0000396B /* GoogleService-Info.plist */; };
+=======
+		2F69291520FD32C4005D5942 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69291420FD32C4005D5942 /* LoginViewController.swift */; };
+		2F69291720FD3699005D5942 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69291620FD3699005D5942 /* MapViewController.swift */; };
+		2FC1C51520FD2D9600EBAB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */; };
+		2FC1C51720FD2D9600EBAB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C51620FD2D9600EBAB74 /* ViewController.swift */; };
+		2FC1C51A20FD2D9600EBAB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1C51820FD2D9600EBAB74 /* Main.storyboard */; };
+		2FC1C51C20FD2D9800EBAB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */; };
+		2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */; };
+		2FC1C52A20FD2D9800EBAB74 /* Find_FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C52920FD2D9800EBAB74 /* Find_FriendsTests.swift */; };
+		2FC1C53520FD2D9800EBAB74 /* Find_FriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */; };
+		D1249E8920FE55670000396B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1249E8820FE55670000396B /* GoogleService-Info.plist */; };
+>>>>>>> origin/Ishaan
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		2FDE47A820FD64E500B8CD6B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "Find-Friends/Controllers/MapViewController.swift"; sourceTree = SOURCE_ROOT; };
 		46430B5DBF25C9A2B0CE6445 /* Pods-Find-Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find-Friends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find-Friends/Pods-Find-Friends.release.xcconfig"; sourceTree = "<group>"; };
 		4C58374696DB3A9430460DB1 /* Pods_Find_Friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Friends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +47,25 @@
 		D1249E7A20FD61A40000396B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1249E8220FD63DC0000396B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D1249E8520FE546C0000396B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+=======
+		2F69291420FD32C4005D5942 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2F69291620FD3699005D5942 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2FC1C51120FD2D9600EBAB74 /* Find-Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find-Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC1C51620FD2D9600EBAB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FC1C51920FD2D9600EBAB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC1C51E20FD2D9800EBAB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC1C52020FD2D9800EBAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC1C52520FD2D9800EBAB74 /* Find-FriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-FriendsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC1C52920FD2D9800EBAB74 /* Find_FriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_FriendsTests.swift; sourceTree = "<group>"; };
+		2FC1C52B20FD2D9800EBAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC1C53020FD2D9800EBAB74 /* Find-FriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-FriendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_FriendsUITests.swift; sourceTree = "<group>"; };
+		2FC1C53620FD2D9800EBAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1249E8820FE55670000396B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1249E8B20FE55830000396B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+>>>>>>> origin/Ishaan
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +109,7 @@
 		D1249E6A20FD61A20000396B /* Find-Friends */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				D1249E8720FE54920000396B /* Controllers */,
 				D1249E8620FE547B0000396B /* Storyboards */,
 				D1249E8420FE54630000396B /* Supporting Files */,
@@ -83,6 +117,14 @@
 				D1249E7520FD61A40000396B /* Assets.xcassets */,
 				D1249E7220FD61A20000396B /* Find_Friends.xcdatamodeld */,
 				D1249E8220FD63DC0000396B /* GoogleService-Info.plist */,
+=======
+				D1249E8D20FE55990000396B /* Controllers */,
+				D1249E8C20FE55860000396B /* Storyboards */,
+				D1249E8A20FE55770000396B /* Supporting Files */,
+				2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */,
+				2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */,
+				D1249E8820FE55670000396B /* GoogleService-Info.plist */,
+>>>>>>> origin/Ishaan
 			);
 			path = "Find-Friends";
 			sourceTree = "<group>";
@@ -122,6 +164,34 @@
 				46430B5DBF25C9A2B0CE6445 /* Pods-Find-Friends.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1249E8A20FE55770000396B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C52020FD2D9800EBAB74 /* Info.plist */,
+				D1249E8B20FE55830000396B /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1249E8C20FE55860000396B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C51820FD2D9600EBAB74 /* Main.storyboard */,
+				2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D1249E8D20FE55990000396B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C51620FD2D9600EBAB74 /* ViewController.swift */,
+				2F69291420FD32C4005D5942 /* LoginViewController.swift */,
+				2F69291620FD3699005D5942 /* MapViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,10 +255,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				D1249E7920FD61A40000396B /* LaunchScreen.storyboard in Resources */,
 				D1249E8320FD63DC0000396B /* GoogleService-Info.plist in Resources */,
 				D1249E7620FD61A40000396B /* Assets.xcassets in Resources */,
 				D1249E7120FD61A20000396B /* Main.storyboard in Resources */,
+=======
+				2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */,
+				D1249E8920FE55670000396B /* GoogleService-Info.plist in Resources */,
+				2FC1C51C20FD2D9800EBAB74 /* Assets.xcassets in Resources */,
+				2FC1C51A20FD2D9600EBAB74 /* Main.storyboard in Resources */,
+>>>>>>> origin/Ishaan
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
