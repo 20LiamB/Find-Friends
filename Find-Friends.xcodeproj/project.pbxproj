@@ -16,6 +16,7 @@
 		2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */; };
 		2FC1C52A20FD2D9800EBAB74 /* Find_FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C52920FD2D9800EBAB74 /* Find_FriendsTests.swift */; };
 		2FC1C53520FD2D9800EBAB74 /* Find_FriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */; };
+		D1249E8920FE55670000396B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1249E8820FE55670000396B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2FC1C53020FD2D9800EBAB74 /* Find-FriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-FriendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC1C53420FD2D9800EBAB74 /* Find_FriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_FriendsUITests.swift; sourceTree = "<group>"; };
 		2FC1C53620FD2D9800EBAB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1249E8820FE55670000396B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1249E8B20FE55830000396B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,12 @@
 		2FC1C51320FD2D9600EBAB74 /* Find-Friends */ = {
 			isa = PBXGroup;
 			children = (
+				D1249E8D20FE55990000396B /* Controllers */,
+				D1249E8C20FE55860000396B /* Storyboards */,
+				D1249E8A20FE55770000396B /* Supporting Files */,
 				2FC1C51420FD2D9600EBAB74 /* AppDelegate.swift */,
-				2FC1C51620FD2D9600EBAB74 /* ViewController.swift */,
-				2F69291420FD32C4005D5942 /* LoginViewController.swift */,
-				2F69291620FD3699005D5942 /* MapViewController.swift */,
-				2FC1C51820FD2D9600EBAB74 /* Main.storyboard */,
 				2FC1C51B20FD2D9800EBAB74 /* Assets.xcassets */,
-				2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */,
-				2FC1C52020FD2D9800EBAB74 /* Info.plist */,
+				D1249E8820FE55670000396B /* GoogleService-Info.plist */,
 			);
 			path = "Find-Friends";
 			sourceTree = "<group>";
@@ -129,6 +130,34 @@
 				2FC1C53620FD2D9800EBAB74 /* Info.plist */,
 			);
 			path = "Find-FriendsUITests";
+			sourceTree = "<group>";
+		};
+		D1249E8A20FE55770000396B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C52020FD2D9800EBAB74 /* Info.plist */,
+				D1249E8B20FE55830000396B /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1249E8C20FE55860000396B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C51820FD2D9600EBAB74 /* Main.storyboard */,
+				2FC1C51D20FD2D9800EBAB74 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D1249E8D20FE55990000396B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1C51620FD2D9600EBAB74 /* ViewController.swift */,
+				2F69291420FD32C4005D5942 /* LoginViewController.swift */,
+				2F69291620FD3699005D5942 /* MapViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC1C51F20FD2D9800EBAB74 /* LaunchScreen.storyboard in Resources */,
+				D1249E8920FE55670000396B /* GoogleService-Info.plist in Resources */,
 				2FC1C51C20FD2D9800EBAB74 /* Assets.xcassets in Resources */,
 				2FC1C51A20FD2D9600EBAB74 /* Main.storyboard in Resources */,
 			);
